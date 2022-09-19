@@ -10,16 +10,40 @@ header {
     height: 100vh;
     width: 100vw;
 
-    text-align: center;
-    align-items: center;
     align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
 
     background-color: blueviolet;
+    background-image: url(Imagems/185020.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
  }
 
  main h1{
     display: block;
-    margin: auto;
+    margin: auto auto 0px auto;
+
+
+    color: white;
+    text-shadow: black 3px 3px 5px;
+ }
+
+ main a {
+   display: block;
+   margin: 0px auto auto auto;
+
+
+   text-decoration: none;
+   color: white;
+   background-color: red;
+
+
+   border-radius: 10px;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-top: 10px;
+   padding-bottom: 10px;
  }
 
  footer {
